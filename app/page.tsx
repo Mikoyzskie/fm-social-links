@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="bg-[#1f1f1f] p-10 flex flex-col justify-center items-center rounded-xl gap-6">
+    <main className="bg-[#1f1f1f] p-6 md:p-10 flex flex-col justify-center items-center rounded-xl gap-6">
       <Image
         src={"/avatar-jessica.jpeg"}
         alt="User"
